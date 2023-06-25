@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body{
+    background-image: url(pictures/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+header{
+    background-image: url(pictures/poloska2.png);
+    background-size: cover;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    justify-content: space-between;
+    color: black;
+
+    padding: 0 20%;
+}
+header a{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    
+}
+.logo{
+    display: inline;
+    color: aqua;
+    border-color: blue;
+    display:inline-block;
+    border: 2px;
+    border-radius: 0.75em;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-decoration: none;
+}
+.logo:hover{
+    color: blue;
+    transform-origin: center;
+    transform: scaleX(-90deg) translateY(100%);
+}
+.logo>a{
+    display: flex;
+    justify-content: flex-start;
+}
+.nomer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 900;
+}
+.nomer>a{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+.nomer>a:hover{
+    background-color: #bd9797;
+}
+
+.anime{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 100;
+    background-image: url(pictures/fon3.png);
+    background-size: contain;
+    font-family: 'Pacifico', cursive;
+}
+#wikipedia{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+#zagonka{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+.text{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    background-color:black;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#zagonka:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#wikipedia:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#opening{
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    background: #fff0f0;
+    border: 2px solid;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+#opening:hover{
+    color: blue;
+    background-color: #bd9797;
+}
+#info{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-image: url(pictures/fon.png)
+}
