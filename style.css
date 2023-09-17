@@ -9,17 +9,15 @@ body{
 
 }
 header{
-    background-image: url(pictures/poloska2.png);
-    background-size: cover;
-    height: 72px;
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    justify-content: space-between;
     color: black;
-
+    position: relative;
     padding: 0 20%;
+    background-color: #72a7c888;
 }
+
 header a{
     margin-right: 25px;
     font-weight: 500;
@@ -28,12 +26,11 @@ header a{
     
 }
 .logo{
-    display: inline;
+    display: flex;
+    justify-content: start;
     color: aqua;
     border-color: blue;
     display:inline-block;
-    border: 2px;
-    border-radius: 0.75em;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     text-decoration: none;
@@ -43,14 +40,12 @@ header a{
     transform-origin: center;
     transform: scaleX(-90deg) translateY(100%);
 }
-.logo>a{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .nomer{
     color: aliceblue;
     display: flex;
     justify-content: space-between;
+    width: 70%;
     font-family: 'Pacifico', cursive;
     font-size: 900;
 }
@@ -70,20 +65,42 @@ header a{
     transition: transform 0.15s;
     transform-style: preserve-3d;
     text-decoration: none;
+   
 }
 .nomer>a:hover{
     background-color: #bd9797;
 }
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    width: 60%;
+}
 
 .anime{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
+    align-items: center;
     font-size: 20px;
     font-weight: 100;
-    background-image: url(pictures/fon3.png);
-    background-size: contain;
+    width: 60%;
     font-family: 'Pacifico', cursive;
+}
+.anime img {
+    width: 100%;
+}
+.text{
+    display: flex;
+    justify-self: center;
+    background-color: #72a7c888;
+}
+.text::after{
+    content: "";
 }
 #wikipedia{
     color: brown;
@@ -124,7 +141,12 @@ header a{
     justify-content: flex-end;
 }
 footer{
-    background-color:black;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #72a7c888;
+    height: 100%;
+    width: 100%;
     padding:10px 0;
     text-align: center;
     color:white;
@@ -167,4 +189,23 @@ a:hover{
     font-weight: bolder;
     color: white;
     background-image: url(pictures/fon.png)
+}
+/*Медиа-запрос для ширины 320px - мобильные устройства*/
+@media (min-width: 320px) { 
+    /*Стили для минимальной ширины в 320px*/
+}
+
+/*Медиа-запрос для ширины 768px - планшеты*/
+@media (min-width: 768px) { 
+    /*Стили для минимальной ширины в 768px*/
+}
+
+/*Медиа-запрос для ширины 1200px - десктопы*/
+@media (min-width: 1200px) { 
+    /*Стили для минимальной ширины в 1200px*/
+}
+
+/*Медиа-запрос для ширины 1400px - большие экраны*/
+@media (min-width: 1400px) { 
+    /*Стили для минимальной ширины в 1400px*/
 }
