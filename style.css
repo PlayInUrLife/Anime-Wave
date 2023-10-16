@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body{
-    background-image: url(pictures/fon2.png);
+    background-image: url(pictures/fon2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,9 +12,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    color: black;
     position: relative;
-    padding: 0 20%;
     background-color: #72a7c888;
 }
 
@@ -26,11 +24,8 @@ header a{
     
 }
 .logo{
-    display: flex;
-    justify-content: start;
     color: aqua;
     border-color: blue;
-    display:inline-block;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     text-decoration: none;
@@ -45,9 +40,8 @@ header a{
     color: aliceblue;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 55%;
     font-family: 'Pacifico', cursive;
-    font-size: 900;
 }
 .nomer>a{
     color: brown;
@@ -90,6 +84,7 @@ nav {
     font-weight: 100;
     width: 60%;
     font-family: 'Pacifico', cursive;
+    margin-bottom: 2%;
 }
 .anime img {
     width: 100%;
@@ -190,22 +185,82 @@ a:hover{
     color: white;
     background-image: url(pictures/fon.png)
 }
-/*Медиа-запрос для ширины 320px - мобильные устройства*/
+
 @media (min-width: 320px) { 
-    /*Стили для минимальной ширины в 320px*/
+    
 }
 
-/*Медиа-запрос для ширины 768px - планшеты*/
+
 @media (min-width: 768px) { 
-    /*Стили для минимальной ширины в 768px*/
+
 }
 
-/*Медиа-запрос для ширины 1200px - десктопы*/
+
 @media (min-width: 1200px) { 
-    /*Стили для минимальной ширины в 1200px*/
+  
 }
 
-/*Медиа-запрос для ширины 1400px - большие экраны*/
+
 @media (min-width: 1400px) { 
-    /*Стили для минимальной ширины в 1400px*/
+
+}
+input {
+    display: none;
+}
+input:checked~text {
+    font-weight: 100;
+    
+}
+label {
+    background-image: url("pictures/eye2.png");
+    background-size: contain;
+    width: 50px; height: 50px;
+}
+input:checked~ main article div .text { 
+    font-size: 2em;
+    font-weight: 600;
+}
+.carousel {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+.image {
+    width: 100%;
+}
+.arrow {
+    width: 10%;
+}
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.carousel__item {
+    background-color: #72a7c888;
+}
+
+.elementy {
+        color: brown; 
+        background: #fff0f0; 
+        padding: 10px; 
+        font-size: 20px; 
+        border-radius: 5px; 
+        box-shadow: 0px 1px 3px; 
+        -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        
+        .elementy:hover { 
+        -webkit-transform: translate(10px);
+        transform: translate(10px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
 }
